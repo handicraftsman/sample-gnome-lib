@@ -23,7 +23,7 @@ lib = shared_library(
   vala_args: [
     '--pkg', 'posix',
     '--shared-library', 'libgsample'
-  ], # Required for Posix namespace
+  ],
   dependencies: global_dependencies + [
     # dependency('gtk-3.0') # A sample local dependency
   ],
